@@ -53,6 +53,7 @@ var db = {
           console.log("alumno encontrado.");
           this.alumnos[index].clave = alumno.claveNew;
           this.alumnos[index].nombre = alumno.nombreNew;
+          this.alumnos[index].direccion = alumno.direccionNew;
           break;
         }
       }
